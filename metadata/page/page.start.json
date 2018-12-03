@@ -5,8 +5,10 @@
   "lede": "Why do users complete this form?",
   "steps": [
     "page.leaver-details",
-    "page.manager-details",
-    "page.tech-used",
+    "page.business-unit",
+    "page.manager",
+    "page.location",
+    "page.technology-used",
     "page.check-submit",
     "page.confirmation"
   ],
