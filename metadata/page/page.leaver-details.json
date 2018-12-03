@@ -59,48 +59,51 @@
       "name": "job-title"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.leaver-details--radios.input_auto__1",
       "_type": "radios",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.leaver-details--radios.input_auto__1--radio.Permanent",
           "_type": "radio",
           "label": "Permanent",
-          "value": "Permanent"
+          "value": "permanent"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.leaver-details--radios.input_auto__1--radio.Contractor",
           "_type": "radio",
           "label": "Contractor",
-          "value": "Contractor"
+          "value": "contractor"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.leaver-details--radios.input_auto__1--radio.other",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.leaver-details--radios.input_auto__1--radio.other--text.auto_name__1",
+            "_type": "text",
+            "label": "Describe employment type",
+            "name": "auto_name__1",
+            "validation": {
+              "required": false
+            }
+          },
           "label": "Other",
           "value": "other"
         }
       ],
       "legend": "Employment type",
-      "name": "input_auto__1"
-    },
-    {
-      "_id": "page.leaver-details--text.input_auto__4",
-      "_type": "text",
-      "label": "Other employment type",
-      "name": "input_auto__4",
-      "show": {
-        "identifier": "input_auto__1",
-        "operator": "is",
-        "value": "other"
-      },
-      "validation": {
-        "required": {
-          "identifier": "input_auto__1",
-          "operator": "is",
-          "value": "other"
-        }
-      }
+      "name": "employment"
     }
   ],
   "heading": "Leaver Details",

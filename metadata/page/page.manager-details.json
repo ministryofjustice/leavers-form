@@ -3,46 +3,31 @@
   "_type": "page.form",
   "components": [
     {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
       "_id": "page.manager-details--radios.business-unit",
       "_type": "radios",
       "items": [
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
           "_id": "page.manager-details--radios.business-unit--radio.hq-pa",
           "_type": "radio",
           "hint": "Dave Rogers",
           "label": "HQ - Platforms & Architecture",
-          "value": "hq-pa"
+          "value": "hq_pa"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
           "_id": "page.manager-details--radios.business-unit--radio.hq-cd",
           "_type": "radio",
           "hint": "Helen Mott",
           "label": "HQ - Central Digital",
-          "value": "hq-cd"
+          "value": "hq_cd"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
           "_id": "page.manager-details--radios.business-unit--radio.hq-sp",
           "_type": "radio",
           "hint": "Amie Alekna",
           "label": "HQ - Security & Privacy",
-          "value": "hq-sp"
+          "value": "hq_sp"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
           "_id": "page.manager-details--radios.business-unit--radio.laa",
           "_type": "radio",
           "hint": "Luke Crosby",
@@ -50,19 +35,13 @@
           "value": "laa"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
           "_id": "page.manager-details--radios.business-unit--radio.CICA",
           "_type": "radio",
           "hint": "David Marshall",
           "label": "CICA",
-          "value": "CICA"
+          "value": "cica"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
           "_id": "page.manager-details--radios.business-unit--radio.opg",
           "_type": "radio",
           "hint": "Jane Fallon",
@@ -70,28 +49,22 @@
           "value": "opg"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
           "_id": "page.manager-details--radios.business-unit--radio.hmpps-ds",
           "_type": "radio",
           "hint": "Carol Teece",
           "label": "HMPPS & Digital Studio",
-          "value": "hmpps-ds"
+          "value": "hmpps"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
           "_id": "page.manager-details--radios.business-unit--radio.cts-so",
           "_type": "radio",
           "hint": "Richard Matthews",
           "label": "CTS & Service Ops",
-          "value": "cts-so"
+          "value": "cts"
         }
       ],
       "legend": "Business Unit",
-      "name": "business-unit"
+      "name": "business_unit"
     },
     {
       "_id": "page.manager-details--section",
@@ -100,30 +73,66 @@
         {
           "_id": "page.manager-details--section--content",
           "_type": "content",
-          "html": "## Manager Details"
+          "html": "## Manager"
         },
         {
           "_id": "page.manager-details--section--text.man-first-name",
           "_type": "text",
-          "label": "First name",
-          "name": "man-first-name"
-        },
-        {
-          "_id": "page.manager-details--section--text.man-last-name",
-          "_type": "text",
-          "label": "Last name",
-          "name": "man-last-name"
+          "label": "Name",
+          "name": "manager_name"
         },
         {
           "_id": "page.manager-details--section--text.man-email",
           "_type": "text",
           "hint": "e.g. my.manager@digital.justice.gov.uk",
-          "label": "Manager email address",
-          "name": "man-email"
+          "label": "Email address",
+          "name": "manager_email"
+        }
+      ]
+    },
+    {
+      "_id": "page.manager-details--section--2",
+      "_type": "section",
+      "components": [
+        {
+          "_id": "page.manager-details--section--2--content",
+          "_type": "content",
+          "html": "## Location details"
+        },
+        {
+          "_id": "page.manager-details--radios.auto_name__2",
+          "_type": "radios",
+          "items": [
+            {
+              "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1",
+              "_type": "radio",
+              "label": "London",
+              "value": "london"
+            },
+            {
+              "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1--2",
+              "_type": "radio",
+              "label": "Sheffield",
+              "value": "sheffield"
+            },
+            {
+              "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1--3",
+              "_type": "radio",
+              "conditionalComponent": {
+                "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1--3--text.auto_name__3",
+                "_type": "text",
+                "name": "auto_name__3"
+              },
+              "label": "Other",
+              "value": "other"
+            }
+          ],
+          "legend": "Leaver’s place of work",
+          "name": "location"
         }
       ]
     }
   ],
-  "heading": "Department Details",
+  "heading": "Department details",
   "url": "manager-details"
 }

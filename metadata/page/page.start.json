@@ -7,7 +7,8 @@
     "page.leaver-details",
     "page.manager-details",
     "page.tech-used",
-    "page.check-submit"
+    "page.check-submit",
+    "page.confirmation"
   ],
   "url": "/"
 }

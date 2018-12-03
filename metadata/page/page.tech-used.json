@@ -3,10 +3,16 @@
   "_type": "page.form",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.tech-used--checkboxes",
       "_type": "checkboxes",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.tech-used--checkboxes--checkbox.macbook",
           "_type": "checkbox",
           "hint": "Digital",
@@ -14,50 +20,57 @@
           "name": "macbook"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.tech-used--checkboxes--checkbox.windows-machine",
           "_type": "checkbox",
           "hint": "Closed Circuit Network",
           "label": "DOM1",
-          "name": "windows-machine"
+          "name": "dom1"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.tech-used--checkboxes--checkbox.quant-omni",
           "_type": "checkbox",
           "label": "Quantum / Omni",
-          "name": "quant-omni"
+          "name": "quantum"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.tech-used--checkboxes--checkbox.use-own",
           "_type": "checkbox",
           "hint": "Exclusively",
           "label": "Used Own Device",
-          "name": "use-own"
+          "name": "own"
         },
         {
+          "_id": "page.tech-used--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "label": "Mobile",
+          "name": "mobile"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.tech-used--checkboxes--checkbox.mobile",
           "_type": "checkbox",
-          "hint": "If Other, provide details in the following question",
+          "conditionalComponent": {
+            "_id": "page.tech-used--checkboxes--checkbox.mobile--textarea.auto_name__2",
+            "_type": "textarea",
+            "label": "Provide details",
+            "name": "auto_name__2"
+          },
           "label": "Other",
-          "name": "mobile"
+          "name": "device_other"
         }
       ],
       "legend": "Technology Used"
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.tech-used--text.other-tech-detail",
-      "_type": "text",
-      "label": "Other technology used",
-      "name": "other-tech-detail",
-      "validation": {
-        "required": {
-          "identifier": "mobile",
-          "operator": "defined"
-        }
-      }
     }
   ],
   "heading": "Technology Used",
