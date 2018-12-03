@@ -19,14 +19,14 @@
           "hint": "Closed Circuit Network",
           "label": "DOM1",
           "name": "device_dom1",
-          "value": "e:device_dom1"
+          "value": "e:DEVICE_DOM1"
         },
         {
           "_id": "page.tech-used--checkboxes--checkbox.quant-omni",
           "_type": "checkbox",
           "label": "Quantum / Omni",
           "name": "device_quantum",
-          "value": "e:device_quantum"
+          "value": "e:DEVICE_QUANTUM"
         },
         {
           "_id": "page.tech-used--checkboxes--checkbox.use-own",

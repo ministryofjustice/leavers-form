@@ -11,56 +11,56 @@
           "_type": "radio",
           "hint": "Dave Rogers",
           "label": "HQ - Platforms & Architecture",
-          "value": "e:unit_hq_pa"
+          "value": "e:UNIT_HQ_PA"
         },
         {
           "_id": "page.manager-details--radios.business-unit--radio.hq-cd",
           "_type": "radio",
           "hint": "Helen Mott",
           "label": "HQ - Central Digital",
-          "value": "e:unit_hq_cd"
+          "value": "e:UNIT_HQ_CD"
         },
         {
           "_id": "page.manager-details--radios.business-unit--radio.hq-sp",
           "_type": "radio",
           "hint": "Amie Alekna",
           "label": "HQ - Security & Privacy",
-          "value": "e:unit_hq_sp"
+          "value": "e:UNIT_HQ_SP"
         },
         {
           "_id": "page.manager-details--radios.business-unit--radio.laa",
           "_type": "radio",
           "hint": "Luke Crosby",
           "label": "LAA",
-          "value": "e:unit_laa"
+          "value": "e:UNIT_LAA"
         },
         {
           "_id": "page.manager-details--radios.business-unit--radio.CICA",
           "_type": "radio",
           "hint": "David Marshall",
           "label": "CICA",
-          "value": "e:unit_cica"
+          "value": "e:UNIT_CICA"
         },
         {
           "_id": "page.manager-details--radios.business-unit--radio.opg",
           "_type": "radio",
           "hint": "Jane Fallon",
           "label": "OPG",
-          "value": "e:unit_opg"
+          "value": "e:UNIT_OPG"
         },
         {
           "_id": "page.manager-details--radios.business-unit--radio.hmpps-ds",
           "_type": "radio",
           "hint": "Carol Teece",
           "label": "HMPPS & Digital Studio",
-          "value": "e:unit_hmpps"
+          "value": "e:UNIT_HMPPS"
         },
         {
           "_id": "page.manager-details--radios.business-unit--radio.cts-so",
           "_type": "radio",
           "hint": "Richard Matthews",
           "label": "CTS & Service Ops",
-          "value": "e:unit_cts"
+          "value": "e:UNIT_CTS"
         }
       ],
       "legend": "Business Unit",

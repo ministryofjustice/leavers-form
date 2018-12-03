@@ -10,13 +10,13 @@
           "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1",
           "_type": "radio",
           "label": "London",
-          "value": "e:location_london"
+          "value": "e:LOCATION_LONDON"
         },
         {
           "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1--2",
           "_type": "radio",
           "label": "Sheffield",
-          "value": "e:location_sheffield"
+          "value": "e:LOCATION_SHEFFIELD"
         },
         {
           "_id": "page.manager-details--radios.auto_name__2--radio.auto_value__1--3",
@@ -28,7 +28,7 @@
             "name": "auto_name__3"
           },
           "label": "Other",
-          "value": "e:location_other"
+          "value": "e:LOCATION_OTHER"
         }
       ],
       "legend": "Location",
