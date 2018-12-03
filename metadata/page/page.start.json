@@ -1,0 +1,13 @@
+{
+  "_id": "page.start",
+  "_type": "page.start",
+  "heading": "MoJ Leavers Form",
+  "lede": "Why do users complete this form?",
+  "steps": [
+    "page.leaver-details",
+    "page.manager-details",
+    "page.tech-used",
+    "page.check-submit"
+  ],
+  "url": "/"
+}

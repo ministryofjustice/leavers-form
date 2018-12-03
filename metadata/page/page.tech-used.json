@@ -1,0 +1,65 @@
+{
+  "_id": "page.tech-used",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.tech-used--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.tech-used--checkboxes--checkbox.macbook",
+          "_type": "checkbox",
+          "hint": "Digital",
+          "label": "Macbook",
+          "name": "macbook"
+        },
+        {
+          "_id": "page.tech-used--checkboxes--checkbox.windows-machine",
+          "_type": "checkbox",
+          "hint": "Closed Circuit Network",
+          "label": "DOM1",
+          "name": "windows-machine"
+        },
+        {
+          "_id": "page.tech-used--checkboxes--checkbox.quant-omni",
+          "_type": "checkbox",
+          "label": "Quantum / Omni",
+          "name": "quant-omni"
+        },
+        {
+          "_id": "page.tech-used--checkboxes--checkbox.use-own",
+          "_type": "checkbox",
+          "hint": "Exclusively",
+          "label": "Used Own Device",
+          "name": "use-own"
+        },
+        {
+          "_id": "page.tech-used--checkboxes--checkbox.mobile",
+          "_type": "checkbox",
+          "hint": "If Other, provide details in the following question",
+          "label": "Other",
+          "name": "mobile"
+        }
+      ],
+      "legend": "Technology Used"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.tech-used--text.other-tech-detail",
+      "_type": "text",
+      "label": "Other technology used",
+      "name": "other-tech-detail",
+      "validation": {
+        "required": {
+          "identifier": "mobile",
+          "operator": "defined"
+        }
+      }
+    }
+  ],
+  "heading": "Technology Used",
+  "url": "tech-used"
+}

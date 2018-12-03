@@ -1,0 +1,129 @@
+{
+  "_id": "page.manager-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.manager-details--radios.business-unit",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.manager-details--radios.business-unit--radio.hq-pa",
+          "_type": "radio",
+          "hint": "Dave Rogers",
+          "label": "HQ - Platforms & Architecture",
+          "value": "hq-pa"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.manager-details--radios.business-unit--radio.hq-cd",
+          "_type": "radio",
+          "hint": "Helen Mott",
+          "label": "HQ - Central Digital",
+          "value": "hq-cd"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.manager-details--radios.business-unit--radio.hq-sp",
+          "_type": "radio",
+          "hint": "Amie Alekna",
+          "label": "HQ - Security & Privacy",
+          "value": "hq-sp"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.manager-details--radios.business-unit--radio.laa",
+          "_type": "radio",
+          "hint": "Luke Crosby",
+          "label": "LAA",
+          "value": "laa"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.manager-details--radios.business-unit--radio.CICA",
+          "_type": "radio",
+          "hint": "David Marshall",
+          "label": "CICA",
+          "value": "CICA"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.manager-details--radios.business-unit--radio.opg",
+          "_type": "radio",
+          "hint": "Jane Fallon",
+          "label": "OPG",
+          "value": "opg"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.manager-details--radios.business-unit--radio.hmpps-ds",
+          "_type": "radio",
+          "hint": "Carol Teece",
+          "label": "HMPPS & Digital Studio",
+          "value": "hmpps-ds"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.manager-details--radios.business-unit--radio.cts-so",
+          "_type": "radio",
+          "hint": "Richard Matthews",
+          "label": "CTS & Service Ops",
+          "value": "cts-so"
+        }
+      ],
+      "legend": "Business Unit",
+      "name": "business-unit"
+    },
+    {
+      "_id": "page.manager-details--section",
+      "_type": "section",
+      "components": [
+        {
+          "_id": "page.manager-details--section--content",
+          "_type": "content",
+          "html": "## Manager Details"
+        },
+        {
+          "_id": "page.manager-details--section--text.man-first-name",
+          "_type": "text",
+          "label": "First name",
+          "name": "man-first-name"
+        },
+        {
+          "_id": "page.manager-details--section--text.man-last-name",
+          "_type": "text",
+          "label": "Last name",
+          "name": "man-last-name"
+        },
+        {
+          "_id": "page.manager-details--section--text.man-email",
+          "_type": "text",
+          "hint": "e.g. my.manager@digital.justice.gov.uk",
+          "label": "Manager email address",
+          "name": "man-email"
+        }
+      ]
+    }
+  ],
+  "heading": "Department Details",
+  "url": "manager-details"
+}

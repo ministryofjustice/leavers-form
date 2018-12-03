@@ -1,0 +1,108 @@
+{
+  "_id": "page.leaver-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.leaver-details--date.leave-date",
+      "_type": "date",
+      "label": "Leave Date",
+      "name": "leave-date"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.leaver-details--text.first-name",
+      "_type": "text",
+      "label": "First name",
+      "name": "first-name"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.leaver-details--text.last-name",
+      "_type": "text",
+      "label": "Last name",
+      "name": "last-name"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.leaver-details--text.email",
+      "_type": "text",
+      "errors": {
+        "pattern": {
+          "inline": "Please enter a valid email"
+        }
+      },
+      "label": "Leaver email address",
+      "name": "email",
+      "validation": {}
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.leaver-details--text.job-title",
+      "_type": "text",
+      "label": "Job title",
+      "name": "job-title"
+    },
+    {
+      "_id": "page.leaver-details--radios.input_auto__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.leaver-details--radios.input_auto__1--radio.Permanent",
+          "_type": "radio",
+          "label": "Permanent",
+          "value": "Permanent"
+        },
+        {
+          "_id": "page.leaver-details--radios.input_auto__1--radio.Contractor",
+          "_type": "radio",
+          "label": "Contractor",
+          "value": "Contractor"
+        },
+        {
+          "_id": "page.leaver-details--radios.input_auto__1--radio.other",
+          "_type": "radio",
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "legend": "Employment type",
+      "name": "input_auto__1"
+    },
+    {
+      "_id": "page.leaver-details--text.input_auto__4",
+      "_type": "text",
+      "label": "Other employment type",
+      "name": "input_auto__4",
+      "show": {
+        "identifier": "input_auto__1",
+        "operator": "is",
+        "value": "other"
+      },
+      "validation": {
+        "required": {
+          "identifier": "input_auto__1",
+          "operator": "is",
+          "value": "other"
+        }
+      }
+    }
+  ],
+  "heading": "Leaver Details",
+  "url": "leaver-details"
+}
