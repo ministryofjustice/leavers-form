@@ -62,7 +62,7 @@
           "_id": "page.leaver-details--radios.input_auto__1--radio.Permanent",
           "_type": "radio",
           "label": "Permanent",
-          "value": "e:EMPLOYMENT_PERMANENT"
+          "value": "e[EMPLOYMENT_PERMANENT]"
         },
         {
           "$component": true,
@@ -71,7 +71,7 @@
           "_id": "page.leaver-details--radios.input_auto__1--radio.Contractor",
           "_type": "radio",
           "label": "Contractor",
-          "value": "e:EMPLOYMENT_CONTRACTOR"
+          "value": "e[EMPLOYMENT_CONTRACTOR]"
         },
         {
           "$component": true,
@@ -93,7 +93,7 @@
             }
           },
           "label": "Other",
-          "value": "e:EMPLOYMENT_OTHER"
+          "value": "e[EMPLOYMENT_OTHER]"
         }
       ],
       "legend": "Employment type",
