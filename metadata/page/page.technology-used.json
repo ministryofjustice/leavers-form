@@ -47,7 +47,7 @@
           "conditionalComponent": {
             "_id": "page.tech-used--checkboxes--checkbox.mobile--textarea.auto_name__2",
             "_type": "textarea",
-            "label": "Provide details",
+            "label": "Provide technology details",
             "name": "auto_name__2"
           },
           "label": "Other",
