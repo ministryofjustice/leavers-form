@@ -1,9 +1,11 @@
 {
   "_id": "service",
   "_type": "config.service",
+  "code": "LEAVERS",
   "emailInputNameTeam": "elliott.bouher@digital.justice.gov.uk",
   "emailInputNameUser": "leaver_email",
   "name": "MoJ Leavers Form",
   "phase": "alpha",
-  "phaseText": "Service phase text goes here"
+  "phaseText": "Service phase text goes here",
+  "title": "MoJ Leavers"
 }
