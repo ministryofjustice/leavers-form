@@ -10,7 +10,7 @@
           "_id": "page.tech-used--checkboxes--checkbox.macbook",
           "_type": "checkbox",
           "hint": "Digital",
-          "label": "Macbook",
+          "label": "MacBook",
           "name": "device_macbook"
         },
         {
@@ -29,17 +29,16 @@
           "value": "e[DEVICE_QUANTUM]"
         },
         {
-          "_id": "page.tech-used--checkboxes--checkbox.use-own",
-          "_type": "checkbox",
-          "hint": "Exclusively",
-          "label": "Used Own Device",
-          "name": "device_own"
-        },
-        {
           "_id": "page.tech-used--checkboxes--checkbox.auto_name__4",
           "_type": "checkbox",
           "label": "Mobile",
           "name": "device_mobile"
+        },
+        {
+          "_id": "page.tech-used--checkboxes--checkbox.use-own",
+          "_type": "checkbox",
+          "label": "Used own device",
+          "name": "device_own"
         },
         {
           "_id": "page.tech-used--checkboxes--checkbox.mobile",
@@ -54,7 +53,7 @@
           "name": "device_other"
         }
       ],
-      "legend": "Technology Used"
+      "legend": "Technology used"
     }
   ],
   "url": "technology"
