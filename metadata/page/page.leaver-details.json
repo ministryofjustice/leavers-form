@@ -5,7 +5,7 @@
     {
       "_id": "page.leaver-details--date.leave-date",
       "_type": "date",
-      "label": "Leave Date",
+      "label": "Leave date",
       "name": "leave_date"
     },
     {
@@ -39,7 +39,7 @@
         {
           "_id": "page.leaver-details--radios.input_auto__1--radio.Permanent",
           "_type": "radio",
-          "label": "Permanent Staff",
+          "label": "Permanent staff",
           "value": "e[EMPLOYMENT_PERMANENT]"
         },
         {

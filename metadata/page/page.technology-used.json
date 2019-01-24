@@ -1,6 +1,6 @@
 {
   "_id": "page.technology-used",
-  "_type": "page.singlequestion",
+  "_type": "page.form",
   "components": [
     {
       "_id": "page.tech-used--checkboxes",
@@ -53,21 +53,25 @@
           "_id": "page.tech-used--checkboxes--checkbox.mobile",
           "_type": "checkbox",
           "conditionalComponent": {
-            "$component": true,
-            "$control": true,
-            "$definition": true,
-            "$field": true,
             "_id": "page.tech-used--checkboxes--checkbox.mobile--textarea.auto_name__2",
             "_type": "textarea",
             "label": "Provide technology details",
-            "name": "auto_name__2"
+            "name": "device_other_details"
           },
           "label": "Other",
           "name": "device_other"
         }
       ],
       "legend": "Technology used"
+    },
+    {
+      "_id": "page.technology-used--date.auto_name__4",
+      "_type": "date",
+      "hint": "To return laptop and other equipment",
+      "label": "Last  day in office",
+      "name": "auto_name__4"
     }
   ],
+  "heading": "Technology details",
   "url": "technology"
 }
