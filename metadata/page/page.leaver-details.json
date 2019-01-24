@@ -61,7 +61,7 @@
           "$option": true,
           "_id": "page.leaver-details--radios.input_auto__1--radio.Permanent",
           "_type": "radio",
-          "label": "Permanent",
+          "label": "Permanent Staff",
           "value": "e[EMPLOYMENT_PERMANENT]"
         },
         {
