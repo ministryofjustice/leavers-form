@@ -6,14 +6,26 @@
       "_id": "page.manager-details--section--text.man-first-name",
       "_type": "text",
       "label": "Name",
-      "name": "manager_name"
+      "name": "manager_name",
+      "validation": {
+        "required": false
+      }
     },
     {
       "_id": "page.manager-details--section--text.man-email",
       "_type": "text",
+      "errors": {
+        "pattern": {
+          "any": "Please enter a valid email address"
+        }
+      },
       "hint": "e.g. my.manager@digital.justice.gov.uk",
       "label": "Email address",
-      "name": "manager_email"
+      "name": "manager_email",
+      "validation": {
+        "pattern": ".*@.*",
+        "required": false
+      }
     }
   ],
   "heading": "Manager",
