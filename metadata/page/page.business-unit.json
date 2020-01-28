@@ -9,7 +9,7 @@
         {
           "_id": "page.manager-details--radios.business-unit--radio.hq-pa",
           "_type": "radio",
-          "hint": "Dave Rogers",
+          "hint": "Martyn Inglis",
           "label": "HQ - Platforms & Architecture",
           "value": "e[UNIT_HQ_PA]"
         },
