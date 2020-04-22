@@ -6,6 +6,7 @@
       "_id": "page.leaver-details--date.leave-date",
       "_type": "date",
       "label": "Leave date",
+      "legend": "Leave date",
       "name": "leave_date"
     },
     {
@@ -15,8 +16,8 @@
       "name": "leaver_name"
     },
     {
-      "_id": "page.leaver-details--text.email",
-      "_type": "text",
+      "_id": "page.leaver-details--email.email",
+      "_type": "email",
       "errors": {
         "pattern": {
           "inline": "Please enter a valid email"
