@@ -30,7 +30,7 @@
         {
           "_id": "page.manager-details--radios.business-unit--radio.laa",
           "_type": "radio",
-          "hint": "Luke Crosby",
+          "hint": "Esther O’Sullivan",
           "label": "LAA",
           "value": "e[UNIT_LAA]"
         },
@@ -44,21 +44,21 @@
         {
           "_id": "page.manager-details--radios.business-unit--radio.opg",
           "_type": "radio",
-          "hint": "Jane Fallon",
+          "hint": "Su Morgan",
           "label": "OPG",
           "value": "e[UNIT_OPG]"
         },
         {
           "_id": "page.manager-details--radios.business-unit--radio.hmpps-ds",
           "_type": "radio",
-          "hint": "Carol Teece",
+          "hint": "Sophie Otter & Mark Stanley",
           "label": "HMPPS & Digital Studio",
           "value": "e[UNIT_HMPPS]"
         },
         {
           "_id": "page.manager-details--radios.business-unit--radio.cts-so",
           "_type": "radio",
-          "hint": "Richard Matthews",
+          "hint": "Mark Robinson",
           "label": "CTS & Service Ops",
           "value": "e[UNIT_CTS]"
         }
