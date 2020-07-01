@@ -11,7 +11,7 @@
   "emailTemplateUser": "Dear {leaver_name}\r\n\r\nThank you for completing the Leavers’ form. Your leaving details have been sent to the relevant parties.\r\n\r\nPlease remember to return your devices when you leave.\r\n\r\nMany thanks\r\nRecruitment Team / Digital Service Desk",
   "name": "MoJ Leavers Form",
   "pdfHeading": "MoJ Leaver details",
-  "phase": "alpha",
+  "phase": "none",
   "phaseText": "Service phase text goes here",
   "_isa": "@ministryofjustice/fb-components-core=>service"
 }
