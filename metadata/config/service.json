@@ -14,5 +14,5 @@
   "phase": "none",
   "phaseText": "Service phase text goes here",
   "_isa": "@ministryofjustice/fb-components-core=>service",
-  "serviceEmailAddress": "recruitment@digital.justice.gov.uk@digital.justice.gov.uk"
+  "serviceEmailAddress": "recruitment@digital.justice.gov.uk"
 }
