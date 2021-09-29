@@ -1,9 +1,9 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "We’ll ask you:\r\n\r\n- your leaving date\r\n- your business unit\r\n- your manager’s details\r\n- where you work\r\n- what technology you use",
+  "body": "This form is for use by managers in the Digital & Technology team to help us plan our workforce and recruit essential staff. You will also need to complete the [leavers checklist for managers](https://intranet.justice.gov.uk/guidance/hr/end-change-of-employment/). \r\n\r\n## Before you begin\r\n\r\nYou will need: \r\n\r\n* the team member's leaving date\r\n* their business unit\r\n* their place of work\r\n* a list of technologies they use\r\n\r\nIt is your responsibility to ensure your team member's equipment, such as laptop, mobile phone and security pass, are collected when they leave.",
   "heading": "MoJ Leavers form",
-  "lede": "Let us know you’re leaving",
+  "lede": "Use this form to let us know one of your team is leaving.",
   "steps": [
     "page.leaver-details",
     "page.business-unit",
