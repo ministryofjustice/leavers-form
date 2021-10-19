@@ -7,46 +7,11 @@
       "_type": "radios",
       "items": [
         {
-          "_id": "page.manager-details--radios.business-unit--radio.hq-pa",
-          "_type": "radio",
-          "hint": "Martyn Inglis",
-          "label": "HQ - Platforms & Architecture",
-          "value": "e[UNIT_HQ_PA]"
-        },
-        {
-          "_id": "page.manager-details--radios.business-unit--radio.hq-cd",
-          "_type": "radio",
-          "hint": "Helen Mott",
-          "label": "HQ - Central Digital",
-          "value": "e[UNIT_HQ_CD]"
-        },
-        {
-          "_id": "page.manager-details--radios.business-unit--radio.hq-sp",
-          "_type": "radio",
-          "hint": "Amie Alekna",
-          "label": "HQ - Security & Privacy",
-          "value": "e[UNIT_HQ_SP]"
-        },
-        {
-          "_id": "page.manager-details--radios.business-unit--radio.laa",
-          "_type": "radio",
-          "hint": "Esther O’Sullivan",
-          "label": "LAA",
-          "value": "e[UNIT_LAA]"
-        },
-        {
           "_id": "page.manager-details--radios.business-unit--radio.CICA",
           "_type": "radio",
           "hint": "David Marshall",
           "label": "CICA",
           "value": "e[UNIT_CICA]"
-        },
-        {
-          "_id": "page.manager-details--radios.business-unit--radio.opg",
-          "_type": "radio",
-          "hint": "Su Morgan",
-          "label": "OPG",
-          "value": "e[UNIT_OPG]"
         },
         {
           "_id": "page.manager-details--radios.business-unit--radio.hmpps-ds",
@@ -56,10 +21,53 @@
           "value": "e[UNIT_HMPPS]"
         },
         {
+          "_id": "page.manager-details--radios.business-unit--radio.hq-cd",
+          "_type": "radio",
+          "hint": "Helen Mott",
+          "label": "HQ - Central Digital",
+          "value": "e[UNIT_HQ_CD]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.hq-pa",
+          "_type": "radio",
+          "hint": "Formally P&A - Martyn Inglis",
+          "label": "HQ - Engineering",
+          "value": "e[UNIT_HQ_PA]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.hq-sp",
+          "_type": "radio",
+          "hint": "Amie Alekna",
+          "label": "HQ - Security & Privacy",
+          "value": "e[UNIT_HQ_SP]"
+        },
+        {
+          "_id": "page.business-unit--radios.auto_name__4--radio.hq-so",
+          "_type": "radio",
+          "hint": "Need a Name",
+          "label": "HQ - Strategy & Operations",
+          "value": "e[UNIT_HQ_SO]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.laa",
+          "_type": "radio",
+          "hint": "Esther O’Sullivan",
+          "label": "LAA",
+          "value": "e[UNIT_LAA]"
+        },
+        {
+          "_id": "page.manager-details--radios.business-unit--radio.opg",
+          "_type": "radio",
+          "hint": "Su Morgan",
+          "label": "OPG",
+          "value": "e[UNIT_OPG]"
+        },
+
+        {
           "_id": "page.manager-details--radios.business-unit--radio.cts-so",
           "_type": "radio",
-          "hint": "Mark Robinson",
-          "label": "CTS & Service Ops",
+          "hint": "Formally CTS and Service OPs - Mark Robinson",
+          "label": "Tech Services",
           "value": "e[UNIT_CTS]"
         }
       ],
