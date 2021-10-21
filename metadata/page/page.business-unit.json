@@ -63,6 +63,13 @@
           "value": "e[UNIT_OPG]"
         },
         {
+          "_id": "page.business-unit--radios.auto_name__4--radio.pro",
+          "_type": "radio",
+          "hint": "Corrinne Bailey",
+          "label": "Probation",
+          "value": "e[UNIT_PRO]"
+        },
+        {
           "_id": "page.manager-details--radios.business-unit--radio.cts-so",
           "_type": "radio",
           "hint": "Formally CTS and Service OPs - Mark Robinson",
