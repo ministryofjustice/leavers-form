@@ -23,7 +23,7 @@
         {
           "_id": "page.manager-details--radios.business-unit--radio.hq-cd",
           "_type": "radio",
-          "hint": "Helen Mott",
+          "hint": "Nabeeha Ahmed",
           "label": "HQ - Central Digital",
           "value": "e[UNIT_HQ_CD]"
         },
@@ -38,13 +38,13 @@
           "_id": "page.manager-details--radios.business-unit--radio.hq-sp",
           "_type": "radio",
           "hint": "Amie Alekna",
-          "label": "HQ - Security & Privacy",
+          "label": "HQ - Security Services Information Governance Group",
           "value": "e[UNIT_HQ_SP]"
         },
         {
           "_id": "page.business-unit--radios.auto_name__4--radio.hq-so",
           "_type": "radio",
-          "hint": "Need a Name",
+          "hint": "Sarah Brooks",
           "label": "HQ - Strategy & Operations",
           "value": "e[UNIT_HQ_SO]"
         },
@@ -62,7 +62,6 @@
           "label": "OPG",
           "value": "e[UNIT_OPG]"
         },
-
         {
           "_id": "page.manager-details--radios.business-unit--radio.cts-so",
           "_type": "radio",
