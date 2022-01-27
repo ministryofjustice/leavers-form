@@ -30,7 +30,7 @@
         {
           "_id": "page.manager-details--radios.business-unit--radio.hq-pa",
           "_type": "radio",
-          "hint": "Formally P&A - Martyn Inglis",
+          "hint": "Formerly P&A - Martyn Inglis",
           "label": "HQ - Engineering",
           "value": "e[UNIT_HQ_PA]"
         },
@@ -72,7 +72,7 @@
         {
           "_id": "page.manager-details--radios.business-unit--radio.cts-so",
           "_type": "radio",
-          "hint": "Formally CTS and Service OPs - Mark Robinson",
+          "hint": "Formerly CTS and Service OPs - Mark Robinson",
           "label": "Tech Services",
           "value": "e[UNIT_CTS]"
         }
