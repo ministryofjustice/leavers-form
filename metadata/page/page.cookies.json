@@ -1,0 +1,236 @@
+{
+  "_id": "page.cookies",
+  "_type": "page.content",
+  "components": [
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--content",
+      "_type": "content",
+      "html": "Cookies are small files saved on your phone, tablet or computer when you visit a website.\r\n\r\nWe use cookies to make this form work and collect information about how you use the form so it can be updated and improved."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--content--2",
+      "_type": "content",
+      "html": "## Essential cookies\r\n\r\nEssential cookies are required to make this form work and keep your information secure while you use it."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--table--session",
+      "_type": "table",
+      "classes": "fb-table--cookie",
+      "firstCellIsHeader": true,
+      "head": [
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Name",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-half",
+          "html": "Purpose",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Expires",
+          "scope": "col"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "html": "_sessionId",
+            "scope": "row"
+          },
+          {
+            "html": "Saves your current progress in this computer and tracks inactivity periods"
+          },
+          {
+            "html": "After 30 minutes of inactivity or when you close your browser"
+          }
+        ]
+      ]
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--content--4",
+      "_type": "content",
+      "html": "## Analytics cookies\r\n\r\nWe use Google Analytics to collect data about how you use this form. This information helps us to improve the service we provide. Google is not allowed to use or share our analytics data with anyone.\r\nGoogle Analytics stores anonymous information about:\r\n\r\n- how you got to this form\r\n- the pages you visit and how long you spend on them\r\n- what you click on while you’re here\r\n\r\n"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--content--5",
+      "_type": "content",
+      "html": "### Universal Analytics"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--table--ga",
+      "_type": "table",
+      "classes": "fb-table--cookie",
+      "firstCellIsHeader": true,
+      "head": [
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Name",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-half",
+          "html": "Purpose",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Expires",
+          "scope": "col"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "html": "_ga",
+            "scope": "row"
+          },
+          {
+            "html": "This helps us count how many people visit this form"
+          },
+          {
+            "html": "2 years"
+          }
+        ],
+        [
+          {
+            "html": "_gid",
+            "scope": "row"
+          },
+          {
+            "html": "This helps us count how many people visit this form"
+          },
+          {
+            "html": "24 hours"
+          }
+        ],
+        [
+          {
+            "html": "_gat",
+            "scope": "row"
+          },
+          {
+            "html": "Used to manage the rate at which page view requests are made"
+          },
+          {
+            "html": "10 minutes"
+          }
+        ]
+      ]
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--content--6",
+      "_type": "content",
+      "html": "### Google Analytics"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--table--utma",
+      "_type": "table",
+      "classes": "fb-table--cookie",
+      "firstCellIsHeader": true,
+      "head": [
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Name",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-half",
+          "html": "Purpose",
+          "scope": "col"
+        },
+        {
+          "classes": "govuk-!-width-one-quarter",
+          "html": "Expires",
+          "scope": "col"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "html": "_utma",
+            "scope": "row"
+          },
+          {
+            "html": "Like _ga, this lets us know how many visitors are new to this form"
+          },
+          {
+            "html": "2 years"
+          }
+        ],
+        [
+          {
+            "html": "_utmb",
+            "scope": "row"
+          },
+          {
+            "html": "This works with _utmc to calculate the average length of time you spend on this form"
+          },
+          {
+            "html": "30 minutes"
+          }
+        ],
+        [
+          {
+            "html": "_utmc",
+            "scope": "row"
+          },
+          {
+            "html": "This works with _utmb to calculate when you close your browser"
+          },
+          {
+            "html": "when you close your browser"
+          }
+        ],
+        [
+          {
+            "html": "_utmz",
+            "scope": "row"
+          },
+          {
+            "html": "This tells us how you reached this form (for example from another website or a search engine)"
+          },
+          {
+            "html": "6 months"
+          }
+        ]
+      ]
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.cookies--content--7",
+      "_type": "content",
+      "html": "You can [opt out of Google Analytics cookies](https://tools.google.com/dlpage/gaoptout)."
+    }
+  ],
+  "heading": "Cookies",
+  "url": "cookies"
+}
